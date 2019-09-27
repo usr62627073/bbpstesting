@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bonus Block Changer</title>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <style>@import url('https://fonts.googleapis.com/css?family=Merriweather:300|Open+Sans&display=swap|Cabin:600i&display=swap|Cutive+Mono&display=swap');</style>
+        <style>
+            body {
+                font-family: 'Open Sans', sans-serif;
+                font-size: 1.2rem;
+            }
+            h2{
+                /*font-family: 'Merriweather', serif;*/
+                font-family: 'Cabin', sans-serif;
+                font-weight: normal;
+                font-size: 1.6em;
+                /*text-decoration: underline;*/
+            }
+            p{
+                padding:5vmax auto;
+                margin: auto auto 2em;
+                line-height: 1.7;
+            }
+            .text-code {
+                font-family: 'Cutive Mono', monospace;
+                background-color:whitesmoke;
+                font-weight:300;
+                color:#292929;
+                padding: 1rem;
+                word-wrap: break-word;
+                white-space: pre-wrap;
+                line-height: normal;
+                font-size:.9em;
+            }
+            .text-light {
+                background-color:whitesmoke;
+                padding: 1rem;
+                line-height: normal;
+            }
+            .highlight{
+                background-color:whitesmoke;
+                line-height: normal;
+                padding:0em 0.3em;
+            }
+            button {
+                padding: auto 1rem;
+                margin-bottom: 1rem;
+            }
+            .max {
+                max-width: 960px;
+                margin: auto;
+            }
+            .indent{
+                margin: auto 1.2em 2em;
+            }
+            h3{
+                font-weight:500;
+                font-size:1.3em;
+            }
+        </style>
+    </head>
+    <body>
+        <div class='max'>
+            <!--<h2>Info</h2>
+            <p>This tool allows you to unlock a locked bonus block.</p>
+            <p>ex: 8/12/24. it would unlock the bonus block for the 12th.</p>-->
+            <h2>Getting started:</h2>
+            <p> Copy all the code you see below:</p>
+            <p class='text-code' >javascript:(function()%7Bvar%20script%3Ddocument.createElement(%22script%22)%3Bscript.src%3D%22https%3A%2F%2Fusr62627073.github.io%2Fbbpstesting%2Fpsbb.js%22%3Bdocument.body.appendChild(script)%3B%7D)()%3B</p>
+            <p> Next make a bookmark of a random page.</p>
+            <p> Edit the bookmark, and change the name to "ps" and change the url to the code you copied.</p>
+            <p>Safari might say "syncing" when trying to edit. If its a problem, <span class='highlight'>Settings -> Icloud -> Safari</span> and turn <span class='highlight'>syncing</span> off.</p>
+            <p>Setup finished</p>
+            <h2>How to use:</h2>
+            <p> When you want to change your bonus block, go to <a href='https://powerschool.colonialsd.org/public/' target="_blank">powerschool</a> and go to the bonus block page of the day you want to change.</p>
+            <h3>CHROME -</h3>
+            <p class='indent'> At the top of your browser, where the url is for powerschool, type "ps" or the name of your newly created bookmark</p>
+            <p class='indent'> You should see a link that comes up with the code you copied earlier. Click it.</p>
+            <h3>SAFARI -</h3>
+            <p class='indent'>Make sure in <span class='highlight'>Settings -> Safari -> Advanced</span> that <span class='highlight'>javascript</span> is allowed.</p>
+            <p class='indent'>Click on the bookmark button, and click on the bookmark called "ps" or the name of your newly created bookmark</p>
+            <h2>BB Sharing:</h2>
+            <p>Bonus block sharing allows you to share your bonus block with a friend (even if its full)</p>
+            <h3>SHARING -</h3>
+            <p class='indent'>To allow your friend or friends to get into your bonus block, copy the number in the "paste / share" button and send it to them.</p>
+            <p class='indent'>That number represents your current bonus block that you are in.</p>
+            <h3>SWITCHING -</h3>
+            <p class='indent'>If you have received your friends bonus block in number form, switching into it is as easy as replacing the number in the "paste / share" button to their number.</p>
+            <p class='indent'>Then pick the newly created bonus block selection that has the number you just inputted and the word "NEW". It should always be at the bottom.</p>
+            <p class='indent'>Then click submit, thats it.</p>
+            <p class='indent'>Any extra spaces and fake class #'s will assign a random class for that day.</p>
+            <!--<h2>Standard switching</h2>
+            <p>Just select a class like normal and submit... Thats it.</p>-->
+            <h2>Errors:</h2>
+            <!--<p>"Wrong Week" - means exactly what it says.</p>
+            <p>"error: request to use" - Then request to use it.</p>
+            <p>"error: fetching data" - disable AdBlock on powerschool</p>-->
+            <p>If you find any critical errors while using this, please let me know.</p>
+            <div class='text-light'>
+                <h3>Disclaimer</h3>
+                <p>If the bonus block code gets misused and or out of hand, it can be disabled at anytime.</p>
+            </div>
+            <button type="button" onclick="window.open('', '_self', ''); window.close();">Close</button>
+        </div>
+    </body>
+</html>
